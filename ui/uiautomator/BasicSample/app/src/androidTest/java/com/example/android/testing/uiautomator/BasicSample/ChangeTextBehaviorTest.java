@@ -129,4 +129,9 @@ public class ChangeTextBehaviorTest {
         ResolveInfo resolveInfo = pm.resolveActivity(intent, PackageManager.MATCH_DEFAULT_ONLY);
         return resolveInfo.activityInfo.packageName;
     }
+    /**
+     *  Exercise: Write a scenario in which you don't fill the text field and click on the button
+     *  "CHANGE TEXT" anc check that the title is changed to an empty string.
+     */
+    // TODO: 6/20/19
 }
